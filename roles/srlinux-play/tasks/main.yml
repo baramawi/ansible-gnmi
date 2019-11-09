@@ -1,0 +1,8 @@
+---
+- name: show operational state
+  command: gnmi_get -target_addr 172.19.19.2:50052 -username admin -password admin -insecure -xpath "/interface[name=mgmt0]/oper-state"
+  register: result
+
+- name: Display result show version
+  debug:
+    var: result.stdout_lines
