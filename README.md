@@ -1,7 +1,6 @@
 # ansible-gnmi
 
-[root@compute231 ansible-gnmi]# ansible-playbook srlinux-play.yml 
- [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+ansible-playbook srlinux-play.yml 
 
 
 PLAY [localhost] *****************************************************************************************************************************************************************
